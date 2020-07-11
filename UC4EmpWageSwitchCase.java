@@ -28,13 +28,6 @@ class EmpWageSwitchCase{
 		}
 
 		salary = empHrs* empRatePerHr;
-		System.out.println("Calculate Salary = "+salary);	
-	
-		for (int i = 1;i <= empWorkingDays; i++ ){
-
-			totalSal = salary * empWorkingDays;
-		}
-
-		System.out.println("Total Salary = "+totalSal);
+		System.out.println("Calculate Salary = "+salary);
 	}
 }
